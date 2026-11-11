@@ -21,7 +21,11 @@
 
 ---
 
-## 1. SwiftUiDemo — 상태와 바인딩
+## 1. DemoProject — 첫 프로젝트
+
+Xcode에서 iOS App 템플릿으로 프로젝트를 만들고 시뮬레이터에서 실행해 본 출발점입니다.
+
+## 2. SwiftUiDemo — 상태와 바인딩
 
 사용자 입력이 바로 화면에 반영되는 인터랙티브 UI.
 
@@ -39,7 +43,7 @@ Text(text)
 Slider(value: $rotation, in: 0...360, step: 0.1)
 ```
 
-## 2. ObserveableDemo — 여러 화면이 같은 데이터 공유
+## 3. ObserveableDemo — 여러 화면이 같은 데이터 공유
 
 `Timer`로 1초마다 값이 오르는 `TimerData`를 만들고, 첫 화면에서 `environmentObject`로 주입해
 **두 번째·세 번째 화면이 같은 카운트를 함께 보도록** 구성했습니다.
@@ -57,7 +61,7 @@ NavigationView { ... }.environmentObject(timerData)
 @EnvironmentObject var timerData: TimerData
 ```
 
-## 3. ListNavDemo — 리스트 + 내비게이션 CRUD
+## 4. ListNavDemo — 리스트 + 내비게이션 CRUD
 
 `carData.json`을 읽어 전기차 목록을 보여주는 앱.
 
@@ -79,10 +83,6 @@ ListNavDemo/
 > 자동차 사진은 교재 예제 이미지라 저장소에 포함하지 않았습니다.
 > 실행 시 사진 없이 표시되며, `Assets.xcassets/CarAssets/<이름>.imageset/`에
 > `tesla_model_3.jpg` 같은 이름으로 이미지를 넣으면 그대로 나타납니다.
-
-## 4. DemoProject — 첫 프로젝트
-
-Xcode에서 iOS App 템플릿으로 프로젝트를 만들고 시뮬레이터에서 실행해 본 출발점입니다.
 
 ---
 
