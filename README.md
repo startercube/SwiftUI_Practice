@@ -1,6 +1,6 @@
 # SwiftUI Practice
 
-> HCI 수업(2026 봄학기, 한림대학교)에서 실습한 **SwiftUI iOS 앱** 모음입니다.
+> HCI 수업(2026 1학기, 한림대학교)에서 실습한 **SwiftUI iOS 앱** 모음입니다.
 > 상태 관리, 데이터 공유, 리스트·내비게이션 등 SwiftUI의 핵심 개념을 작은 앱으로 하나씩 직접 만들어 보았습니다.
 
 ![Swift](https://img.shields.io/badge/Swift-F05138?logo=swift&logoColor=white)
