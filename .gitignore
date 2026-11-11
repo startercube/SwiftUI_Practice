@@ -1,0 +1,9 @@
+# Xcode 개인 설정 / 빌드 산출물
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+.DS_Store
+
+# 프로젝트 타깃 밖에 남은 템플릿 사본 (빌드에 포함되지 않음)
+/DemoProject/ContentView.swift
