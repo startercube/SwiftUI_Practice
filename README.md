@@ -76,6 +76,10 @@ ListNavDemo/
 └─ AddNewCar.swift    추가 폼
 ```
 
+> 자동차 사진은 교재 예제 이미지라 저장소에 포함하지 않았습니다.
+> 실행 시 사진 없이 표시되며, `Assets.xcassets/CarAssets/<이름>.imageset/`에
+> `tesla_model_3.jpg` 같은 이름으로 이미지를 넣으면 그대로 나타납니다.
+
 ## 4. DemoProject — 첫 프로젝트
 
 Xcode에서 iOS App 템플릿으로 프로젝트를 만들고 시뮬레이터에서 실행해 본 출발점입니다.

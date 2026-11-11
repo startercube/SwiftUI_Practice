@@ -7,3 +7,6 @@ build/
 
 # 프로젝트 타깃 밖에 남은 템플릿 사본 (빌드에 포함되지 않음)
 /DemoProject/ContentView.swift
+
+# 교재 예제 자동차 사진 (저작권 문제로 업로드하지 않음)
+ListNavDemo/ListNavDemo/Assets.xcassets/CarAssets/*/*.jpg
